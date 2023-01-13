@@ -1,9 +1,9 @@
 
 public class Main {
     public static void main(String[] args) {
-        ClaseParaDepurar clase = new ClaseParaDepurar();
+        /*ClaseParaDepurar clase = new ClaseParaDepurar();
         double valor = clase.echaCuentas();
-        System.out.println("Sale "+valor);
+        System.out.println("Sale "+valor);*/
 
     }
 }
