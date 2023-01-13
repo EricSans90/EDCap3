@@ -1,20 +1,22 @@
 public class Mcd {
 
         private int a, b;
-
     public void setA(int a) {
         this.a = a;
     }
-
     public void setB(int b) {
         this.b = b;
     }
-
+    public int getA() {
+        return a;
+    }
+    public int getB() {
+        return b;
+    }
     public Mcd(int a, int b) {
         this.a = a;
         this.b = b;
     }
-
     public static int calculoMcd(int a, int b) {
         //Es la versión recursiva
         if (b == 0) {
@@ -28,9 +30,8 @@ public class Mcd {
         }
         return calculoMcd(tipo.b, tipo.a % tipo.b);
     }
-
     public static void main(String[] args) {
-        Mcd test = new Mcd(72,16);
+        Mcd test = new Mcd(20,5);
         //System.out.println(calculoMcd(test));
     }
 }
