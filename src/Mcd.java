@@ -16,13 +16,21 @@ public class Mcd {
     }
 
     public static int calculoMcd(int a, int b) {
+        //Es la versión recursiva
         if (b == 0) {
             return a;
         }
         return calculoMcd(b, a % b);
     }
+    public static int calculoMcd(Mcd tipo) {
+        if (tipo.b == 0) {
+            return tipo.a;
+        }
+        return calculoMcd(tipo.b, tipo.a % tipo.b);
+    }
 
     public static void main(String[] args) {
-        int
+        Mcd test = new Mcd(72,16);
+        //System.out.println(calculoMcd(test));
     }
 }

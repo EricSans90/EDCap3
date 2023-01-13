@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93ffe95f-f42b-4634-8843-235335bfc233" name="Changes" comment="Copa ejemplo hasta el final">
-      <change afterPath="$PROJECT_DIR$/src/Mcd.java" afterDir="false" />
+    <list default="true" id="93ffe95f-f42b-4634-8843-235335bfc233" name="Changes" comment="Principio ejercicio 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mcd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CopaTest">
+  <component name="RunManager" selected="Application.Mcd">
+    <configuration name="Mcd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mcd" />
+      <module name="EDCap3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CopaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EDCap3" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mcd" />
         <item itemvalue="JUnit.CopaTest" />
         <item itemvalue="JUnit.CopaTest.getTipoLiquido" />
       </list>
@@ -123,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673572898207</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Principio ejercicio 2">
+      <created>1673573659428</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673573659428</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,7 +157,8 @@
     <MESSAGE value="Ejercicios de la teoría" />
     <MESSAGE value="Copa" />
     <MESSAGE value="Copa ejemplo hasta el final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Copa ejemplo hasta el final" />
+    <MESSAGE value="Principio ejercicio 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Principio ejercicio 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/EDCap3$CopaTest.ic" NAME="CopaTest Coverage Results" MODIFIED="1673572660479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
