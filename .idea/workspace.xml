@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93ffe95f-f42b-4634-8843-235335bfc233" name="Changes" comment="ejercicio 2 - terminado">
-      <change afterPath="$PROJECT_DIR$/src/EjercicioNotas.java" afterDir="false" />
+    <list default="true" id="93ffe95f-f42b-4634-8843-235335bfc233" name="Changes" comment="ejercicio 1 - terminado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/McdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/McdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjercicioNotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjercicioNotas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673576074687</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ejercicio 1 - terminado">
+      <created>1673733733298</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673733733298</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +202,8 @@
     <MESSAGE value="Principio ejercicio 2" />
     <MESSAGE value="ejercicio 2 - Clase Mcd hecha" />
     <MESSAGE value="ejercicio 2 - terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 2 - terminado" />
+    <MESSAGE value="ejercicio 1 - terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 1 - terminado" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/EDCap3$CopaTest.ic" NAME="CopaTest Coverage Results" MODIFIED="1673572660479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

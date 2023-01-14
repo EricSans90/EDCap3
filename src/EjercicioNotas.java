@@ -46,26 +46,27 @@ public class EjercicioNotas {
         //En mi ejercicio lo leeré desde un objeto instanciado previamente y no desde un archivo,
         // pero el mecanismo es el mismo, dado que leería los valores del archivo y los usaría como argumentos para
         // crear la variable test1
-        EjercicioNotas test1 = new EjercicioNotas(8,6,4);
-        test1.calculoNotaFinal(test1);
-        EjercicioNotas test2 = new EjercicioNotas(7,6,1);
-        test1.calculoNotaFinal(test2);
-        EjercicioNotas test3 = new EjercicioNotas(10,2,4);
-        test1.calculoNotaFinal(test3);
-        EjercicioNotas test4 = new EjercicioNotas(6,3,4);
-        test1.calculoNotaFinal(test4);
-        EjercicioNotas test5 = new EjercicioNotas(3,3,5);
-        test1.calculoNotaFinal(test5);
-        EjercicioNotas test6 = new EjercicioNotas(4.25F,6,4);
-        test1.calculoNotaFinal(test6);
-        EjercicioNotas test7 = new EjercicioNotas(2,7,9);
-        test1.calculoNotaFinal(test7);
-        EjercicioNotas test8 = new EjercicioNotas(-3,2,7);
-        test1.calculoNotaFinal(test8);
-        EjercicioNotas test9 = new EjercicioNotas(0,-1,8);
-        test1.calculoNotaFinal(test9);
-        EjercicioNotas test10 = new EjercicioNotas(1,2,-6);
-        test1.calculoNotaFinal(test10);
+        EjercicioNotas test = new EjercicioNotas(0,0,0);
+        EjercicioNotas camino1 = new EjercicioNotas(8,6,4);
+        test.calculoNotaFinal(camino1);
+        EjercicioNotas camino2 = new EjercicioNotas(7,6,1);
+        test.calculoNotaFinal(camino2);
+        EjercicioNotas camino3 = new EjercicioNotas(10,2,4);
+        test.calculoNotaFinal(camino3);
+        EjercicioNotas camino4 = new EjercicioNotas(6,3,4);
+        test.calculoNotaFinal(camino4);
+        EjercicioNotas camino5 = new EjercicioNotas(3,3,5);
+        test.calculoNotaFinal(camino5);
+        EjercicioNotas camino6 = new EjercicioNotas(4.25F,6,4);
+        test.calculoNotaFinal(camino6);
+        EjercicioNotas camino7 = new EjercicioNotas(2,7,9);
+        test.calculoNotaFinal(camino7);
+        EjercicioNotas camino8a = new EjercicioNotas(-3,2,7);
+        test.calculoNotaFinal(camino8a);
+        EjercicioNotas camino8b = new EjercicioNotas(0,-1,8);
+        test.calculoNotaFinal(camino8b);
+        EjercicioNotas camino8c = new EjercicioNotas(1,2,-6);
+        test.calculoNotaFinal(camino8c);
 
     }
 }
